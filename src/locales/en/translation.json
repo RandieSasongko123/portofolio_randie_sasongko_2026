@@ -3,12 +3,24 @@
       "home": "Home",
       "about": "About",
       "skills": "Skills",
-      "portfolio": "Project",
+      "project": "Project",
       "contact": "Contact"
     },
     "home": {
       "title": "Welcome to My Portfolio",
       "subtitle": "Frontend Developer & Designer"
+    },
+    "about": {
+      "title": "About"
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "projects": {
+      "title": "Projects"
+    },
+    "contact": {
+      "title": "Contact"
     }
   }
   

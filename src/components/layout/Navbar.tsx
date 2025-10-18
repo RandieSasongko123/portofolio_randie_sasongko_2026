@@ -1,38 +1,64 @@
-import { Link, useLocation } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+import { Link, NavLink } from "react-router-dom";
+// import { useTheme } from "../../hooks/useTheme";
+// import { MoonIcon, SunIcon } from "flowbite-react";
 
 const Navbar = () => {
-  const { pathname } = useLocation();
-  const { t } = useTranslation();
+  // const { theme, toggleTheme } = useTheme();
 
-  const links = [
-    { name: t("nav.home"), path: "/" },
-    { name: t("nav.about"), path: "/about" },
-    { name: t("nav.skills"), path: "/skills" },
-    { name: t("nav.portfolio"), path: "/portfolio" },
-    { name: t("nav.contact"), path: "/contact" },
+  const navItems = [
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+    { name: "Journey", path: "/journey" },
+    { name: "Skills", path: "/skills" },
+    { name: "Project", path: "/projects" },
+    { name: "Contact", path: "/contact" },
   ];
 
   return (
-    <nav className="bg-white shadow sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 className="text-xl font-bold">MyPortfolio</h1>
-        <ul className="flex gap-6">
-          {links.map((link) => (
-            <li key={link.path}>
-              <Link
-                to={link.path}
-                className={`${
-                  pathname === link.path
-                    ? "text-blue-600 font-semibold"
-                    : "text-gray-600 hover:text-blue-500"
-                } transition-colors`}
-              >
-                {link.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
+    <nav className="sticky top-0 z-50 bg-gray-900 shadow-md transition-colors duration-300">
+      {/* Container untuk max-width */}
+      <div className="max-w-[1500px] mx-auto flex items-center justify-between px-6 py-4 w-full">
+        <Link
+          to="/"
+          className="text-xl font-bold text-gray-100"
+        >
+          Randie Sasongko
+        </Link>
+
+        <div className="flex items-center gap-6">
+          {/* Nav items */}
+          <ul className="hidden md:flex gap-6">
+            {navItems.map((item) => (
+              <li key={item.path}>
+                <NavLink
+                  to={item.path}
+                  className={({ isActive }) =>
+                    `transition-colors duration-200 ${
+                      isActive
+                        ? "text-blue-400 font-semibold"
+                        : "text-gray-300 hover:text-blue-400"
+                    }`
+                  }
+                >
+                  {item.name}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+
+          {/* Dark/Light Mode toggle */}
+          {/* <button
+            onClick={toggleTheme}
+            className="p-2 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-all"
+            aria-label="Toggle dark mode"
+          >
+            {theme === "dark" ? (
+              <SunIcon className="text-yellow-400" />
+            ) : (
+              <MoonIcon className="text-gray-700" />
+            )}
+          </button> */}
+        </div>
       </div>
     </nav>
   );

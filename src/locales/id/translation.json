@@ -9,6 +9,18 @@
     "home": {
       "title": "Selamat Datang di Portofolio Saya",
       "subtitle": "Pengembang Frontend & Desainer"
+    },
+    "about": {
+      "title": "Tentang"
+    },
+    "skills": {
+      "title": "Keahlihan"
+    },
+    "projects": {
+      "title": "Proyek"
+    },
+    "contact": {
+      "title": "Kontak"
     }
   }
   
