@@ -15,18 +15,18 @@
   "home": {
     "title": "Welcome to My Portfolio",
     "subtitle": "Frontend Developer & Designer",
-    "greeting": "Hi, I'm Randie Sasongko",
+    "greeting": "Hi, I'm Randie Sasongko 🚀",
     "position": "Fullstack Developer",
-    "description": "I am Randie Sasongko, an Informatics student at Multi Data University Palembang with expertise in HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, and Flutter. Experienced in working on projects with Laravel, React JS, and Flutter, serving as a Teaching Assistant, and completing a Certified Flutter Internship. I enjoy teamwork and continuously learning new technologies.",
-    "letsTalk": "Let's Talk",
+    "description": "I am Randie Sasongko 👩🏻‍💻, an Informatics student at Multi Data University Palembang with expertise in HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, and Flutter. Experienced 💼 in working on projects with Laravel, React JS, and Flutter, serving as a Teaching Assistant, and completing a Certified Flutter Internship. I enjoy teamwork and continuously learning new technologies.",
+    "letsTalk": "Let's Talk 📞",
     "profileAlt": "profile_photo"
   },
   "about": {
     "title": "About",
     "me": "Me",
     "position": "Fullstack Developer!",
-    "description1": "I am Randie Sasongko, a student in the S1 Informatics Study Program at Multi Data University Palembang. I master various programming languages such as HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, and Flutter, and can use frameworks like Bootstrap and Tailwind CSS.",
-    "description2": "During my studies, I have gained experience in the programming field, such as building projects using Laravel, React JS, and others, including serving as a Teaching Assistant. I also participated in the Kampus Merdeka program, where I successfully completed a Certified Internship as a Flutter Programmer (Android). I enjoy working in teams and have the passion to continuously learn and grow in the technology field.",
+    "description1": "I am Randie Sasongko, a student in the S1 Informatics Study Program at Multi Data University Palembang. I master various programming languages such as HTML 🌐, CSS 🎨, Java ♨️, PHP 🐘, Laravel 🚀, JavaScript ｡🇯‌🇸‌, Dart 🔠, and Flutter 🛠️, and can use frameworks like Bootstrap and Tailwind CSS.",
+    "description2": "During my studies, I have gained experience in the programming field, such as building projects using Laravel, React JS, and others, including serving as a Teaching Assistant. I also participated in the Kampus Merdeka program, where I successfully completed a 📜 Certified Internship as a Flutter Programmer 📱 (Android). I enjoy working in teams and have the passion to continuously learn and grow in the technology field 🔥.",
     "altGif": "About Me GIF",
     "altProfile": "profile_photo",
     "status": {

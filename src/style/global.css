@@ -1,6 +1,4 @@
 .box {
-  width: 72dp;
-  height: 44dp;
   display: grid;
   place-content: center;
   color: white;
@@ -13,8 +11,8 @@
     #112 60%,
     #213 95%
   );
-  border: solid 5px transparent;
-  border-radius: 2em;
+  border: solid 2px transparent;
+  border-radius: 2em 10px 2em 10px;
   --gradient-border: conic-gradient(
     from var(--border-angle),
     transparent 25%,
@@ -67,4 +65,36 @@
     border-box;
   background-position: center center;
   animation: bg-spin 3s linear infinite;
+}
+
+/* Text Fill Gradient */
+.text-fill {
+  background: linear-gradient(45deg, #FF6500, #1097C8, #FF6500);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Text Fill Gradient */
+.text-fill-image {
+  background-image: url('/src/assets/images/chisa_background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Border / outline putih */
+  -webkit-text-stroke: 0.001px white;
 }

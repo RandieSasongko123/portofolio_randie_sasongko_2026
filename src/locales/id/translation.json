@@ -15,18 +15,18 @@
   "home": {
     "title": "Selamat Datang di Portofolio Saya",
     "subtitle": "Pengembang Frontend & Desainer",
-    "greeting": "Hai, Saya Randie Sasongko",
+    "greeting": "Hai, Saya Randie Sasongko 🚀",
     "position": "Fullstack Developer",
-    "description": "Saya Randie Sasongko, mahasiswa S1 Informatika Universitas Multi Data Palembang dengan keahlian dalam HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, dan Flutter. Berpengalaman mengerjakan proyek dengan Laravel, React JS, dan Flutter, menjadi Asisten Dosen, serta menyelesaikan Magang Bersertifikat Flutter. Saya senang bekerja tim dan terus belajar teknologi baru.",
-    "letsTalk": "Mari Berbicara",
+    "description": "Saya Randie Sasongko 👩🏻‍💻, mahasiswa S1 Informatika Universitas Multi Data Palembang dengan keahlian dalam HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, dan Flutter. Berpengalaman 💼 mengerjakan proyek dengan Laravel, React JS, dan Flutter, menjadi Asisten Dosen, serta menyelesaikan Magang Bersertifikat Flutter. Saya senang bekerja tim dan terus belajar teknologi baru.",
+    "letsTalk": "Mari Berbicara 📞",
     "profileAlt": "foto_profil"
   },
   "about": {
     "title": "Tentang",
     "me": "Saya",
     "position": "Fullstack Developer!",
-    "description1": "Saya Randie Sasongko adalah mahasiswa Program Studi S1 Informatika di Universitas Multi Data Palembang. Saya menguasai berbagai bahasa pemrograman, seperti HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, dan Flutter, serta dapat menggunakan framework seperti Bootstrap dan Tailwind CSS.",
-    "description2": "Selama studi, saya telah memperoleh pengalaman dalam bidang programming, seperti pembangunan project dengan menggunakan Laravel, React JS dan lain sebagainya, termasuk sebagai Asisten Dosen. Saya juga mengikuti program Kampus Merdeka, di mana saya berhasil menyelesaikan Magang Bersertifikat sebagai Programmer Flutter (Android). Saya senang bekerja dalam tim dan memiliki semangat untuk terus belajar dan berkembang di bidang teknologi.",
+    "description1": "Saya Randie Sasongko adalah mahasiswa Program Studi S1 Informatika di Universitas Multi Data Palembang. Saya menguasai berbagai bahasa pemrograman, seperti HTML 🌐, CSS 🎨, Java ♨️, PHP 🐘, Laravel 🚀, JavaScript ｡🇯‌🇸‌, Dart 🔠, dan Flutter 🛠️, serta dapat menggunakan framework seperti Bootstrap dan Tailwind CSS.",
+    "description2": "Selama studi, saya telah memperoleh pengalaman dalam bidang programming, seperti pembangunan project dengan menggunakan Laravel, React JS dan lain sebagainya, termasuk sebagai Asisten Dosen. Saya juga mengikuti program Kampus Merdeka, di mana saya berhasil 📜 menyelesaikan Magang Bersertifikat sebagai Programmer Flutter (Android). Saya senang bekerja dalam tim dan memiliki semangat untuk terus belajar dan berkembang di bidang teknologi 🔥.",
     "altGif": "Tentang Saya GIF",
     "altProfile": "foto_profil",
     "status": {
