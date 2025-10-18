@@ -1,14 +1,14 @@
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import profilePhoto from "../assets/images/photo_profile.png";
 
 const Home = () => {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <motion.div
-      className="flex justify-between items-center gap-8 min-h-screen"
+      className="h-180 flex justify-between items-center gap-8"
       initial={{ opacity: 0, y: 40 }}   // posisi awal (fade & turun sedikit)
       animate={{ opacity: 1, y: 0 }}    // posisi akhir (fade in & naik ke posisi)
       exit={{ opacity: 0, y: -40 }}     // animasi saat meninggalkan halaman
@@ -21,11 +21,11 @@ const Home = () => {
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.7 }}
       >
-        <h1 className="font-bold text-4xl text-white">Hi, I’m Randie Sasongko</h1>
-        <h3 className="text-[#1097C8] font-bold text-3xl">Fullstack Developer</h3>
+        <h1 className="font-bold text-4xl text-white">{t("home.greeting")}</h1>
+        <h3 className="text-[#FF6500] font-bold text-3xl">{t("home.position")}</h3>
         <br />
         <p className="text-lg text-justify text-white">
-        Saya Randie Sasongko, mahasiswa S1 Informatika Universitas Multi Data Palembang dengan keahlian dalam HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, dan Flutter. Berpengalaman mengerjakan proyek dengan Laravel, React JS, dan Flutter, menjadi Asisten Dosen, serta menyelesaikan Magang Bersertifikat Flutter. Saya senang bekerja tim dan terus belajar teknologi baru.
+        {t("home.description")}
         </p>
         <br />
         <Link
@@ -34,25 +34,25 @@ const Home = () => {
             px-8 py-2
             border-2
             rounded-md
-            bg-[#1097C8]
+            bg-[#FF6500]
             text-[#081C29]
-            border-[#1097C8]
+            border-[#FF6500]
             font-medium
             transition-all duration-300
             hover:bg-transparent
-            hover:text-[#1097C8]
-            hover:border-[#1097C8]
+            hover:text-[#FF6500]
+            hover:border-[#FF6500]
             cursor-pointer
             text-lg
           "
         >
-          Let's Talk
+          {t("home.letsTalk")}
         </Link>
       </motion.div>
 
       {/* Kanan: Gambar dengan animasi muncul dari kanan */}
       <motion.div
-        className="w-100 border-b-[3px] border-[#1097C8] px-6"
+        className="w-100 border-b-[3px] border-[#FF6500] px-6"
         initial={{ x: 50, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.7 }}

@@ -4,14 +4,7 @@ const Contact = () => {
   const { t } = useTranslation();
 
   return (
-    <section
-      className="
-        min-h-screen flex flex-col items-center justify-center
-        bg-white text-gray-900
-        dark:bg-gray-900 dark:text-gray-100
-        transition-colors duration-500
-      "
-    >
+    <section>
       <h1 className="text-4xl font-bold mb-4 text-center">
         {t("contact.title")}
       </h1>

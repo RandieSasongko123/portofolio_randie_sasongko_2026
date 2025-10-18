@@ -1,26 +1,64 @@
 {
-    "nav": {
-      "home": "Beranda",
-      "about": "Tentang",
-      "skills": "Keahlian",
-      "portfolio": "Proyek",
-      "contact": "Kontak"
-    },
-    "home": {
-      "title": "Selamat Datang di Portofolio Saya",
-      "subtitle": "Pengembang Frontend & Desainer"
-    },
-    "about": {
-      "title": "Tentang"
-    },
-    "skills": {
-      "title": "Keahlihan"
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "skills": "Keahlian",
+    "journey": "Perjalanan",
+    "project": "Proyek",
+    "contact": "Kontak"
+  },
+  "footer": {
+    "name": "Randie Sasongko",
+    "copyright": ". Hak cipta dilindungi.",
+    "powered": "Dibuat dengan React - Vite - Tailwind CSS - Flowbite"
+  },
+  "home": {
+    "title": "Selamat Datang di Portofolio Saya",
+    "subtitle": "Pengembang Frontend & Desainer",
+    "greeting": "Hai, Saya Randie Sasongko",
+    "position": "Fullstack Developer",
+    "description": "Saya Randie Sasongko, mahasiswa S1 Informatika Universitas Multi Data Palembang dengan keahlian dalam HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, dan Flutter. Berpengalaman mengerjakan proyek dengan Laravel, React JS, dan Flutter, menjadi Asisten Dosen, serta menyelesaikan Magang Bersertifikat Flutter. Saya senang bekerja tim dan terus belajar teknologi baru.",
+    "letsTalk": "Mari Berbicara",
+    "profileAlt": "foto_profil"
+  },
+  "about": {
+    "title": "Tentang",
+    "me": "Saya",
+    "position": "Fullstack Developer!",
+    "description1": "Saya Randie Sasongko adalah mahasiswa Program Studi S1 Informatika di Universitas Multi Data Palembang. Saya menguasai berbagai bahasa pemrograman, seperti HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, dan Flutter, serta dapat menggunakan framework seperti Bootstrap dan Tailwind CSS.",
+    "description2": "Selama studi, saya telah memperoleh pengalaman dalam bidang programming, seperti pembangunan project dengan menggunakan Laravel, React JS dan lain sebagainya, termasuk sebagai Asisten Dosen. Saya juga mengikuti program Kampus Merdeka, di mana saya berhasil menyelesaikan Magang Bersertifikat sebagai Programmer Flutter (Android). Saya senang bekerja dalam tim dan memiliki semangat untuk terus belajar dan berkembang di bidang teknologi.",
+    "altGif": "Tentang Saya GIF",
+    "altProfile": "foto_profil",
+    "status": {
+      "private": "Private",
+      "public": "Public"
     },
     "projects": {
-      "title": "Proyek"
-    },
-    "contact": {
-      "title": "Kontak"
+      "vetencode": {
+        "name": "Vetencode App",
+        "description": "Mobile App Flutter"
+      },
+      "compere": {
+        "name": "Compere",
+        "description": "Aplikasi Web"
+      },
+      "dicker": {
+        "name": "Dicker System",
+        "description": "Aplikasi Web"
+      },
+      "mahasiswa": {
+        "name": "Penerimaan Mahasiswa",
+        "description": "Aplikasi Web"
+      }
     }
+  },
+  "skills": {
+    "title": "Keahlihan"
+  },
+  "projects": {
+    "title": "Proyek"
+  },
+  "contact": {
+    "title": "Kontak"
   }
-  
+}

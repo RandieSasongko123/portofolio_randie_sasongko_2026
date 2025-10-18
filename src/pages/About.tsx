@@ -1,4 +1,4 @@
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { motion, easeInOut, type Variants } from "framer-motion";
 import profilePhoto from "../assets/images/photo_profile.png";
 import vetencode from "../assets/images/vetencode.jpg";
@@ -9,7 +9,7 @@ import { FaLock, FaGlobe, FaReact, FaMobileAlt, FaHtml5, FaCss3, FaJs, FaArrowRi
 import aboutGif from "../assets/icons/information.gif";
 
 const About = () => {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
   const imageContainer: Variants = {
     hidden: { opacity: 0 },
@@ -33,32 +33,32 @@ const About = () => {
   const projects = [
     {
       img: vetencode,
-      name: "Vetencode App",
-      description: "Mobile App Flutter",
+      name: t("about.projects.vetencode.name"),
+      description: t("about.projects.vetencode.description"),
       status: "private",
       tech: ["Flutter", "Dart"],
       url: "https://example.com/vetencode",
     },
     {
       img: compere,
-      name: "Compere",
-      description: "Web Application",
+      name: t("about.projects.compere.name"),
+      description: t("about.projects.compere.description"),
       status: "public",
       tech: ["React", "Tailwind CSS"],
       url: "https://github.com/RandieSasongko/tugas-akhir-informatika-umdp",
     },
     {
       img: dicker,
-      name: "Dicker System",
-      description: "Web App",
+      name: t("about.projects.dicker.name"),
+      description: t("about.projects.dicker.description"),
       status: "public",
       tech: ["HTML", "CSS", "JS"],
       url: "https://github.com/RandieSasongko123/DickerHospital.github.io.git",
     },
     {
       img: penerimaanMahasiswa,
-      name: "Penerimaan Mahasiswa",
-      description: "Web Application",
+      name: t("about.projects.mahasiswa.name"),
+      description: t("about.projects.mahasiswa.description"),
       status: "public",
       tech: ["React", "Bootstrap"],
       url: "https://github.com/RandieSasongko123/penerimaan-mahasiswa.git",
@@ -89,7 +89,7 @@ const About = () => {
   return (
     <div className="relative">
       <motion.div
-        className="min-h-screen flex flex-col justify-center px-8 relative z-10 max-w-[1500px] mx-auto"
+        className="h-200 flex flex-col justify-center px-8 relative z-10 max-w-[1500px] mx-auto"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -103,21 +103,15 @@ const About = () => {
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             <h1 className="font-bold text-4xl flex items-center gap-3 text-white">
-              About <span className="text-[#1097C8]">Me</span>
-              <img src={aboutGif} alt="About Me GIF" className="w-10 h-10" />
+              {t("about.title")} <span className="text-[#FF6500]">{t("about.me")}</span>
+              <img src={aboutGif} alt={t("about.altGif")} className="w-10 h-10" />
             </h1>
-            <h3 className="font-bold text-3xl mt-2 text-white">Fullstack Developer!</h3>
+            <h3 className="font-bold text-3xl mt-2 text-white">{t("about.position")}</h3>
             <p className="text-lg text-justify mt-4 text-white">
-              Saya Randie Sasongko adalah mahasiswa Program Studi S1 Informatika di Universitas Multi Data Palembang. Saya
-              menguasai berbagai bahasa pemrograman, seperti HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, dan Flutter,
-              serta dapat menggunakan framework seperti Bootstrap dan Tailwind CSS.
+              {t("about.description1")}
             </p>
             <p className="text-lg text-justify mt-4 text-white">
-              Selama studi, saya telah memperoleh pengalaman dalam bidang programming, seperti pembangunan project dengan
-              menggunakan Laravel, React JS dan lain sebagainya, termasuk sebagai Asisten Dosen. Saya juga mengikuti
-              program Kampus Merdeka, di mana saya berhasil menyelesaikan Magang Bersertifikat sebagai Programmer Flutter
-              (Android). Saya senang bekerja dalam tim dan memiliki semangat untuk terus belajar dan berkembang di bidang
-              teknologi.
+              {t("about.description2")}
             </p>
           </motion.div>
 

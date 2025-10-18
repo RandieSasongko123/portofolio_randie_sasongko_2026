@@ -6,21 +6,36 @@ import Skills from "../pages/Skills";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
 import Footer from "../components/layout/Footer";
-import chisaBackground from "../assets/images/chisa_background.jpg";
+// import chisaBackground from "../assets/images/chisa_background.jpg";
+import liveWallpaper from "../assets/video/live-wallpaper.mp4";
 import Journey from "../pages/Journey";
 
 const AppRoutes = () => {
   return (
     <Router>
-      {/* Background wrapper */}
-      <div
-        className="w-screen min-h-screen bg-cover bg-center"
-        style={{
-          backgroundImage: `linear-gradient(to top, rgba(8, 28, 41,1), rgba(8, 28, 41,0.95)), url(${chisaBackground})`,
-        }}
-      >
+      {/* Background wrapper dengan video */}
+      <div className="w-screen min-h-screen relative">
+        {/* Video Background */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover"
+        >
+          <source src={liveWallpaper} type="video/mp4" />
+        </video>
+
+        {/* Overlay gradient */}
+        <div
+          className="absolute top-0 left-0 w-full h-full"
+          style={{
+            background: `linear-gradient(to top, rgba(0, 0, 0, 1), rgba(30, 62, 98, 0.6))`
+          }}
+        ></div>
+
         {/* Main content wrapper */}
-        <div className="flex flex-col min-h-screen bg-transparent text-gray-900">
+        <div className="relative z-10 flex flex-col min-h-screen bg-transparent text-gray-900">
           {/* Navbar */}
           <Navbar />
 
