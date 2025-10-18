@@ -65,28 +65,40 @@ const Contact = () => {
             {t("contact.title.social_media")}
           </h1>
           <div className="card-sosmed text-white w-full">
-            {socialMedia.map((media, index) => (
-              <div key={index} className="flex items-center mb-4 p-3 bg-white/5 rounded-lg shadow">
-                <img
-                  src={media.img}
-                  alt={media.name}
-                  className="w-8 h-8 mr-3"
-                />
-                <div className="flex-1">
-                  <h3 className="font-semibold">{media.name}</h3>
-                  <p className="text-gray-300 text-sm">{media.description}</p>
-                </div>
-                <a
-                  href={media.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 bg-[#FF6500] hover:bg-[#FF8533] rounded text-sm transition-colors"
-                >
-                  Visit
-                </a>
-              </div>
-            ))}
-          </div>
+  {socialMedia.map((media, index) => (
+    <div
+      key={index}
+      className="flex items-center justify-between mb-4 p-3 bg-white/5 rounded-lg shadow"
+    >
+      <div className="flex items-center min-w-0 flex-1">
+        <img
+          src={media.img}
+          alt={media.name}
+          className="w-8 h-8 mr-3 flex-shrink-0"
+        />
+        <div className="flex-1 min-w-0">
+          <h3 className="font-semibold text-base md:text-lg truncate">
+            {media.name}
+          </h3>
+          <p className="text-gray-300 text-sm overflow-hidden text-ellipsis whitespace-nowrap">
+            {media.description}
+          </p>
+        </div>
+      </div>
+
+      <a
+        href={media.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ml-3 px-4 py-2 bg-[#FF6500] hover:bg-[#FF8533] rounded text-sm transition-colors flex-shrink-0"
+      >
+        Visit
+      </a>
+    </div>
+  ))}
+</div>
+
+
         </div>
       </div>
     </div>
