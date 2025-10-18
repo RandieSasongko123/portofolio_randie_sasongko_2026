@@ -1,15 +1,7 @@
-// import './App.css'
-import { Button } from "flowbite-react";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-  return (
-    <>
-      <Button>Click me</Button>;
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
-  )
+  return <AppRoutes />;
 }
 
-export default App
+export default App;

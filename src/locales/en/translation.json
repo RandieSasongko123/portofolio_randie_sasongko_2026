@@ -1,0 +1,14 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "portfolio": "Project",
+      "contact": "Contact"
+    },
+    "home": {
+      "title": "Welcome to My Portfolio",
+      "subtitle": "Frontend Developer & Designer"
+    }
+  }
+  

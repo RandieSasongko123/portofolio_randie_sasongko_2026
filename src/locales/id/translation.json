@@ -1,0 +1,14 @@
+{
+    "nav": {
+      "home": "Beranda",
+      "about": "Tentang",
+      "skills": "Keahlian",
+      "portfolio": "Proyek",
+      "contact": "Kontak"
+    },
+    "home": {
+      "title": "Selamat Datang di Portofolio Saya",
+      "subtitle": "Pengembang Frontend & Desainer"
+    }
+  }
+  
