@@ -59,6 +59,46 @@
     "title": "Proyek"
   },
   "contact": {
-    "title": "Kontak"
+    "title": {
+      "contact": "Kontak",
+      "social_media": "Media Sosial"
+    },
+    "social_media": {
+      "instagram": {
+        "name": "Instagram",
+        "description": "randie.sasongko",
+        "link": "https://www.instagram.com/randie.sasongko/#"
+      },
+      "facebook": {
+        "name": "Facebook",
+        "description": "Randie Sasongko",
+        "link": "https://www.facebook.com/profile.php?id=100004601507031&locale=id_ID"
+      },
+      "whatsapp": {
+        "name": "WhatsApp",
+        "description": "085156526455",
+        "link": "https://wa.me/085156526455"
+      },
+      "github": {
+        "name": "GitHub",
+        "description": "RandieSasongko123",
+        "link": "https://github.com/RandieSasongko123"
+      },
+      "vercel": {
+        "name": "Vercel",
+        "description": "Randie",
+        "link": "https://vercel.com/randiesasongko123s-projects"
+      },
+      "gmail": {
+        "name": "Gmail",
+        "description": "randie.sasongko08@gmail.com",
+        "link": "https://google.com"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "description": "Randie Sasongko",
+        "link": "https://id.linkedin.com/in/randie-sasongko-759432266"
+      }
+    }
   }
 }
