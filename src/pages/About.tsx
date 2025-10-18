@@ -121,7 +121,7 @@ const About = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          <div className="w-48 md:w-64 lg:w-80 border-b-4 border-[#FF6500] rounded-lg overflow-hidden">
+          <div className="w-48 md:w-64 lg:w-80 border-b-4 border-[#FF6500] rounded-lg overflow-hidden box-profile">
             <img
               src={profilePhoto}
               alt="photo_profile"
