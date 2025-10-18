@@ -1,10 +1,10 @@
-import { useTranslation } from "react-i18next";
-import { Link, NavLink } from "react-router-dom";
+// import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import profilePhoto from "../assets/images/photo_profile.png";
 
 const Home = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   return (
     <motion.div
