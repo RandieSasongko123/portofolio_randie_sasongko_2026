@@ -10,4 +10,5 @@ export default defineConfig({
       plugins: [['babel-plugin-react-compiler']],
     },
   }), flowbiteReact()],
+  base: process.env.VITE_BASE_PATH || "/portofolio_randie_sasongko_2026"
 })
