@@ -3,7 +3,7 @@ import { motion, easeInOut, type Variants } from "framer-motion";
 import profilePhoto from "../assets/images/photo_profile.png";
 import vetencode from "../assets/images/vetencode.jpg";
 import compere from "../assets/images/compere.jpg";
-import dicker from "../assets/images/Dicker.jpg";
+import dicker from "../assets/images/dicker.jpg";
 import penerimaanMahasiswa from "../assets/images/penerimaan_mahasiswa.jpg";
 import { FaLock, FaGlobe, FaReact, FaMobileAlt, FaHtml5, FaCss3, FaJs, FaArrowRight } from "react-icons/fa";
 import aboutGif from "../assets/icons/information.gif";
