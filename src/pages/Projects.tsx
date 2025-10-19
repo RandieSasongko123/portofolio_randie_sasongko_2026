@@ -9,19 +9,19 @@ import flutter from "../assets/images/flutter.png";
 import reactjs from "../assets/images/react.png";
 import laravel from "../assets/images/laravel.png";
 import dart from "../assets/images/dart.png";
-import vue from "../assets/images/vue.png";
-import randieSasongko from "../assets/images/photo_profile.png";
-import vetencode from "../assets/images/vetencode.jpg";
-import compere from "../assets/images/compere.jpg";
-import dicker from "../assets/images/dicker.jpg";
+// import vue from "../assets/images/vue.png";
+// import randieSasongko from "../assets/images/photo_profile.png";
+// import vetencode from "../assets/images/vetencode.jpg";
+// import compere from "../assets/images/compere.jpg";
+// import dicker from "../assets/images/dicker.jpg";
+// import penerimaanMahasiswa from "../assets/images/penerimaan_mahasiswa.jpg";
 import hourGlass from "../assets/icons/hourglass.gif";
-import penerimaanMahasiswa from "../assets/images/penerimaan_mahasiswa.jpg";
 import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const Projects = () => {
   const { t } = useTranslation();
-  const sliderRef = useRef(null);
+  const sliderRef = useRef<HTMLDivElement>(null);
   const [direction, setDirection] = useState(1); // 1 = ke kanan, -1 = ke kiri
 
   // Draggable
@@ -29,7 +29,8 @@ const Projects = () => {
   let startX: number;
   let scrollLeft: number;
 
-  const mouseDown = (e) => {
+  const mouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!sliderRef.current) return;
     isDown = true;
     sliderRef.current.classList.add("cursor-grabbing");
     startX = e.pageX - sliderRef.current.offsetLeft;
@@ -37,17 +38,19 @@ const Projects = () => {
   };
 
   const mouseLeave = () => {
+    if (!sliderRef.current) return;
     isDown = false;
     sliderRef.current.classList.remove("cursor-grabbing");
   };
 
   const mouseUp = () => {
+    if (!sliderRef.current) return;
     isDown = false;
     sliderRef.current.classList.remove("cursor-grabbing");
   };
 
-  const mouseMove = (e) => {
-    if (!isDown) return;
+  const mouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!isDown || !sliderRef.current) return;
     e.preventDefault();
     const x = e.pageX - sliderRef.current.offsetLeft;
     const walk = (x - startX) * 2;
