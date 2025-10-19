@@ -56,7 +56,124 @@
     "title": "Skills"
   },
   "projects": {
-    "title": "Projects"
+    "title": {
+      "projects": "Projects",
+      "skills": "Skills"
+    },
+    "skills": {
+      "button": "Learn More",
+      "html": {
+          "name": "HTML 5",
+          "description": "HTML5 is a markup language for structuring and displaying content on the World Wide Web, a core technology of the Internet",
+          "link": "https://en.wikipedia.org/wiki/HTML"
+      },
+      "css": {
+          "name": "CSS 3",
+          "description": "CSS 3 is the latest version of CSS still under development by W3C. However, several web browsers already support CSS 3",
+          "link": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+      },
+      "javascript": {
+          "name": "JavaScript",
+          "description": "JavaScript is a high-level, dynamic programming language. JavaScript is popular on the internet and can work",
+          "link": "https://en.wikipedia.org/wiki/JavaScript"
+      },
+      "dart": {
+          "name": "Dart",
+          "description": "Dart is designed for web development such as web and mobile applications, and can also be used to build server applications and desktop applications.",
+          "link": "https://en.wikipedia.org/wiki/Dart_(programming_language)"
+      },
+      "bootstrap": {
+          "name": "Bootstrap",
+          "description": "Bootstrap is a free and open-source CSS framework for designing websites and web applications. This framework contains design templates",
+          "link": "https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+      },
+      "tailwind": {
+          "name": "Tailwind CSS",
+          "description": "Tailwind CSS is a CSS framework that contains a set of utility classes for building custom interfaces quickly.",
+          "link": "https://en.wikipedia.org/wiki/Tailwind_CSS"
+      },
+      "flutter": {
+          "name": "Flutter",
+          "description": "Flutter is an open-source UI software development kit created by Google. Used to develop cross-platform applications from a single codebase for any web browser.",
+          "link": "https://en.wikipedia.org/wiki/Flutter_(software)"
+      },
+      "laravel": {
+          "name": "Laravel",
+          "description": "Laravel is a free, open-source PHP web framework intended for the development of web applications following the model–view–controller architectural pattern.",
+          "link": "https://en.wikipedia.org/wiki/Laravel"
+      },
+      "reactjs": {
+          "name": "React JS",
+          "description": "React is a JavaScript library used to build interactive user interfaces based on components.",
+          "link": "https://en.wikipedia.org/wiki/React_(JavaScript_library)"
+      },
+      "java": {
+          "name": "Java",
+          "description": "Java is a programming language that can run on various computers including mobile phones",
+          "link": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+      }
+    },
+    "option-project": {
+      "option0": "All",
+      "option1": "Mobile Application",
+      "option2": "Web Application"
+    },
+    "projects": {
+      "vetencode": {
+        "name": "Vetencode App",
+        "description": "Mobile App Flutter",
+        "photo": "vetencode",
+        "link": "https",
+        "status": "public",
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "html": {
+            "name": "HTML 5",
+            "photo": "html"
+          },
+          "css": {
+            "name": "CSS 3",
+            "photo": "css"
+          },
+          "javascript": {
+            "name": "JavaScript",
+            "photo": "javascript"
+          },
+          "vue": {
+            "name": "Vue",
+            "photo": "vue"
+          }
+        }
+      },
+      "compere": {
+        "name": "Compere",
+        "description": "Mobile App Flutter",
+        "photo": "compere",
+        "link": "https",
+        "status": "public",
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "html": {
+            "name": "Dart",
+            "photo": "dart"
+          },
+          "css": {
+            "name": "Flutter",
+            "photo": "flutter"
+          }
+        }
+      }
+    }
   },
   "contact": {
     "title" : {

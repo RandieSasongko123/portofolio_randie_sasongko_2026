@@ -56,7 +56,63 @@
     "title": "Keahlihan"
   },
   "projects": {
-    "title": "Proyek"
+    "title": {
+      "projects": "Proyek",
+      "skills": "Keahlihan"
+    },
+    "skills": {
+      "button": "Pelajari",
+      "html": {
+        "name": "HTML 5",
+        "description": "HTML5 adalah sebuah bahasa markah untuk menstrukturkan dan menampilkan isi dari World Wide Web, sebuah teknologi inti dari Internet",
+        "link": "https://id.wikipedia.org/wiki/HTML"
+      },
+      "css": {
+        "name": "CSS 3",
+        "description": "CSS 3 adalah versi CSS terbaru yang masih dikembangkan oleh W3C. Namun beberapa web browser sudah mendukung CSS 3",
+        "link": "https://id.wikipedia.org/wiki/Cascading_Style_Sheets"
+      },
+      "javascript": {
+        "name": "JavaScript",
+        "description": "JavaScript adalah suatu bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja",
+        "link": "https://id.wikipedia.org/wiki/JavaScript"
+      },
+      "dart": {
+        "name": "Dart",
+        "description": "Dart dirancang untuk pengembangan web seperti aplikasi web dan mobile, dan juga dapat digunakan untuk membangun aplikasi server dan aplikasi desktop.",
+        "link": "https://id.wikipedia.org/wiki/Dart_(bahasa_pemrograman)"
+      },
+      "bootstrap": {
+        "name": "Bootstrap",
+        "description": "Bootstrap adalah kerangka kerja CSS yang sumber terbuka dan bebas untuk merancang situs web dan aplikasi web. Kerangka kerja ini berisi templat desain",
+        "link": "https://id.wikipedia.org/wiki/Bootstrap_(kerangka_kerja)"
+      },
+      "tailwind": {
+        "name": "Tailwind CSS",
+        "description": "Tailwind CSS adalah kerangka kerja CSS yang di dalamnya terdapat sekumpulan utility classes untuk membangun antarmuka kustom dengan cepat.",
+        "link": "https://id.wikipedia.org/wiki/Tailwind_CSS"
+      },
+      "flutter": {
+        "name": "Flutter",
+        "description": "Flutter adalah kit pengembangan perangkat lunak UI sumber terbuka yang dibuat oleh Google. Digunakan untuk mengembangkan aplikasi lintas platform dari satu basis kode untuk browser web apa pun.",
+        "link": "https://en.wikipedia.org/wiki/Flutter_(software)"
+      },
+      "laravel": {
+        "name": "Laravel",
+        "description": "HTML5 adalah sebuah bahasa markah untuk menstrukturkan dan menampilkan isi dari World Wide Web, sebuah teknologi inti dari Internet",
+        "link": "https://en.wikipedia.org/wiki/Laravel"
+      },
+      "reactjs": {
+        "name": "React JS",
+        "description": "React adalah libray JavaScript yang digunakan untuk membangun user interface yang interaktif berbasis component.",
+        "link": "https://id.wikipedia.org/wiki/React"
+      },
+      "java": {
+        "name": "Java",
+        "description": "Java adalah bahasa pemrograman yang dapat dijalankan di berbagai komputer termasuk telepon genggam",
+        "link": "https://id.wikipedia.org/wiki/Java"
+      }
+    }
   },
   "contact": {
     "title": {
