@@ -58,59 +58,246 @@
   "projects": {
     "title": {
       "projects": "Proyek",
-      "skills": "Keahlihan"
+      "skills": "Keahlian"
     },
     "skills": {
-      "button": "Pelajari",
+      "button": "Pelajari Lebih Lanjut",
       "html": {
         "name": "HTML 5",
-        "description": "HTML5 adalah sebuah bahasa markah untuk menstrukturkan dan menampilkan isi dari World Wide Web, sebuah teknologi inti dari Internet",
+        "description": "HTML5 adalah bahasa markup untuk menyusun dan menampilkan konten di World Wide Web, yang merupakan salah satu teknologi inti di Internet.",
         "link": "https://id.wikipedia.org/wiki/HTML"
       },
       "css": {
         "name": "CSS 3",
-        "description": "CSS 3 adalah versi CSS terbaru yang masih dikembangkan oleh W3C. Namun beberapa web browser sudah mendukung CSS 3",
+        "description": "CSS 3 adalah versi terbaru dari CSS yang masih dalam pengembangan oleh W3C. Namun, beberapa browser web sudah mendukung CSS 3.",
         "link": "https://id.wikipedia.org/wiki/Cascading_Style_Sheets"
       },
       "javascript": {
         "name": "JavaScript",
-        "description": "JavaScript adalah suatu bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja",
+        "description": "JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis yang sangat populer di internet dan dapat berjalan di berbagai platform.",
         "link": "https://id.wikipedia.org/wiki/JavaScript"
       },
       "dart": {
         "name": "Dart",
-        "description": "Dart dirancang untuk pengembangan web seperti aplikasi web dan mobile, dan juga dapat digunakan untuk membangun aplikasi server dan aplikasi desktop.",
+        "description": "Dart dirancang untuk pengembangan web seperti aplikasi web dan mobile, serta dapat digunakan untuk membangun aplikasi server dan desktop.",
         "link": "https://id.wikipedia.org/wiki/Dart_(bahasa_pemrograman)"
       },
       "bootstrap": {
         "name": "Bootstrap",
-        "description": "Bootstrap adalah kerangka kerja CSS yang sumber terbuka dan bebas untuk merancang situs web dan aplikasi web. Kerangka kerja ini berisi templat desain",
-        "link": "https://id.wikipedia.org/wiki/Bootstrap_(kerangka_kerja)"
+        "description": "Bootstrap adalah framework CSS gratis dan open-source untuk merancang situs web serta aplikasi web. Framework ini berisi kumpulan template desain siap pakai.",
+        "link": "https://id.wikipedia.org/wiki/Bootstrap_(kerangka_kerja_front-end)"
       },
       "tailwind": {
         "name": "Tailwind CSS",
-        "description": "Tailwind CSS adalah kerangka kerja CSS yang di dalamnya terdapat sekumpulan utility classes untuk membangun antarmuka kustom dengan cepat.",
-        "link": "https://id.wikipedia.org/wiki/Tailwind_CSS"
+        "description": "Tailwind CSS adalah framework CSS yang menyediakan kumpulan class utilitas untuk membangun antarmuka pengguna secara cepat dan fleksibel.",
+        "link": "https://en.wikipedia.org/wiki/Tailwind_CSS"
       },
       "flutter": {
         "name": "Flutter",
-        "description": "Flutter adalah kit pengembangan perangkat lunak UI sumber terbuka yang dibuat oleh Google. Digunakan untuk mengembangkan aplikasi lintas platform dari satu basis kode untuk browser web apa pun.",
-        "link": "https://en.wikipedia.org/wiki/Flutter_(software)"
+        "description": "Flutter adalah toolkit pengembangan UI open-source buatan Google. Digunakan untuk membuat aplikasi lintas platform dari satu basis kode untuk berbagai perangkat dan browser web.",
+        "link": "https://id.wikipedia.org/wiki/Flutter_(perangkat_lunak)"
       },
       "laravel": {
         "name": "Laravel",
-        "description": "HTML5 adalah sebuah bahasa markah untuk menstrukturkan dan menampilkan isi dari World Wide Web, sebuah teknologi inti dari Internet",
-        "link": "https://en.wikipedia.org/wiki/Laravel"
+        "description": "Laravel adalah framework web PHP gratis dan open-source yang digunakan untuk mengembangkan aplikasi web dengan pola arsitektur model–view–controller (MVC).",
+        "link": "https://id.wikipedia.org/wiki/Laravel"
       },
       "reactjs": {
         "name": "React JS",
-        "description": "React adalah libray JavaScript yang digunakan untuk membangun user interface yang interaktif berbasis component.",
-        "link": "https://id.wikipedia.org/wiki/React"
+        "description": "React adalah library JavaScript yang digunakan untuk membangun antarmuka pengguna interaktif berbasis komponen.",
+        "link": "https://id.wikipedia.org/wiki/React_(JavaScript_library)"
       },
       "java": {
         "name": "Java",
-        "description": "Java adalah bahasa pemrograman yang dapat dijalankan di berbagai komputer termasuk telepon genggam",
-        "link": "https://id.wikipedia.org/wiki/Java"
+        "description": "Java adalah bahasa pemrograman yang dapat dijalankan di berbagai perangkat, termasuk komputer dan ponsel.",
+        "link": "https://id.wikipedia.org/wiki/Java_(bahasa_pemrograman)"
+      }
+    },
+    "option-project": {
+      "option0": "Semua",
+      "option1": "Aplikasi Mobile",
+      "option2": "Aplikasi Web"
+    },
+    "button": {
+      "demo": "Demo Langsung",
+      "code": "Kode Sumber"
+    },
+    "view": "Lihat Proyek",
+    "techstack": "Teknologi yang Digunakan",
+    "projects": {
+      "vetencode": {
+        "name": "Vetencode App [Tim]",
+        "description": "Vetencode adalah aplikasi marketplace mobile berbasis Flutter yang memungkinkan pengguna di Cianjur untuk membeli dan menjual barang bekas dengan mudah. Aplikasi ini menghadirkan pengalaman pengguna yang lancar dengan fitur chat real-time antara pembeli dan penjual, unggah gambar, daftar berdasarkan kategori, dan deteksi lokasi. Vetencode bertujuan membangun komunitas jual-beli lokal yang tepercaya dan ramah lingkungan melalui penggunaan kembali barang.",
+        "photo": "vetencode",
+        "typeapp": "mobile",
+        "link": "https://github.com/vetencode/bb-buyer-mobile",
+        "demo": "https://google.com",
+        "status": "private",
+        "type": ["mobile"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "flutter": { "name": "Flutter", "photo": "flutter" },
+          "dart": { "name": "Dart", "photo": "dart" },
+          "api": { "name": "Rest API", "photo": "api" }
+        }
+      },
+      "mahasiswa": {
+        "name": "Sistem Penerimaan Mahasiswa [Individu]",
+        "description": "Platform berbasis web yang dirancang untuk mengelola proses penerimaan mahasiswa baru. Sistem ini mendukung pengajuan pendaftaran online, verifikasi dokumen, pelacakan status, dan notifikasi otomatis. Dirancang untuk meningkatkan efisiensi dan transparansi proses penerimaan bagi calon mahasiswa dan pihak administrasi.",
+        "photo": "penerimaanMahasiswa",
+        "typeapp": "website",
+        "link": "https://github.com/Sertifikasi-Web-Developer-LSPP1-UMDP/assessment-batch-4-RandieSasongko",
+        "demo": "https://google.com",
+        "status": "private",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "javascript": { "name": "JavaScript", "photo": "javascript" },
+          "reactjs": { "name": "React JS", "photo": "reactjs" },
+          "vite": { "name": "Vite", "photo": "vite" },
+          "php": { "name": "PHP", "photo": "php" },
+          "laravel": { "name": "Laravel", "photo": "laravel" },
+          "api": { "name": "Rest API", "photo": "api" }
+        }
+      },
+      "compere": {
+        "name": "Compere [Individu]",
+        "description": "Compere adalah aplikasi mobile yang memprediksi kemungkinan kerusakan komponen hardware berdasarkan deskripsi teks. Dengan menggunakan algoritma klasifikasi Multinomial Naive Bayes dan ekstraksi fitur TF-IDF, sistem ini mampu menganalisis input pengguna dan mengidentifikasi komponen yang paling mungkin bermasalah. Compere membantu pengguna dan teknisi mendiagnosis masalah komputer dengan lebih cepat dan akurat.",
+        "photo": "compere",
+        "typeapp": "mobile",
+        "link": "https://github.com/RandieSasongko/tugas-akhir-informatika-umdp.git",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["mobile", "website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "flutter": { "name": "Flutter", "photo": "flutter" },
+          "dart": { "name": "Dart", "photo": "dart" },
+          "go": { "name": "Go", "photo": "go" },
+          "mysql": { "name": "MySQL", "photo": "mysql" },
+          "python": { "name": "Python", "photo": "python" },
+          "api": { "name": "Rest API", "photo": "api" }
+        }
+      },
+      "dicker": {
+        "name": "Dicker System [Tim]",
+        "description": "Aplikasi web manajemen rumah sakit yang memungkinkan pasien melihat jadwal dokter, membuat janji, dan mengakses layanan rumah sakit secara online. Sistem ini juga menyediakan alat bagi admin rumah sakit untuk mengelola data dokter, departemen, dan pasien dengan efisien. Dibangun dengan antarmuka responsif dan teknologi web modern untuk performa optimal di berbagai perangkat.",
+        "photo": "dicker",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/DickerHospital.github.io",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "html": { "name": "HTML 5", "photo": "html" },
+          "css": { "name": "CSS 3", "photo": "css" },
+          "javascript": { "name": "JavaScript", "photo": "javascript" }
+        }
+      },
+      "ninja_bocil": {
+        "name": "Ninja Bocil [Individu]",
+        "description": "Ninja Bocil adalah arsip dan basis data yang dibuat untuk mengumpulkan serta menyajikan informasi mendalam tentang game mobile Ninja Heroes. Situs ini menghimpun data hero, skill, item, statistik, dan strategi gameplay dalam satu tempat yang mudah diakses. Tujuannya untuk membantu pemain baru maupun berpengalaman dalam membandingkan atribut hero, menyusun tim optimal, serta merancang strategi efektif berdasarkan data akurat dan terstruktur.",
+        "photo": "ninjabocil",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/NinjaBocil",
+        "demo": "https://randiesasongko123.github.io/NinjaBocil",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "javascript": { "name": "JavaScript", "photo": "javascript" },
+          "reactjs": { "name": "React JS", "photo": "reactjs" },
+          "api": { "name": "API", "photo": "api" }
+        }
+      },
+      "portofolio1": {
+        "name": "Portofolio 1 [Individu]",
+        "description": "Portofolio 1 adalah situs web pribadi yang dirancang untuk menampilkan perjalanan, keahlian, dan proyek yang telah diselesaikan oleh pengembang. Dibangun dengan desain modern dan tata letak responsif, situs ini berfungsi sebagai representasi digital dari identitas profesional pembuatnya. Melalui bagian-bagian interaktif dan informatif, pengunjung dapat menjelajahi latar belakang, keahlian teknis, serta contoh hasil karya secara langsung.",
+        "photo": "portofolio1",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/PortofolioRandie.github.io",
+        "demo": "https://randiesasongko123.github.io/PortofolioRandie.github.io/",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "html": { "name": "HTML 5", "photo": "html" },
+          "css": { "name": "CSS 3", "photo": "css" },
+          "javascript": { "name": "JavaScript", "photo": "javascript" }
+        }
+      },
+      "mobile_ninja_bocil": {
+        "name": "Mobile Ninja Bocil [Individu]",
+        "description": "Mobile Ninja Bocil adalah aplikasi mobile yang dikembangkan sebagai perluasan dari proyek website Ninja Bocil. Aplikasi ini berfungsi sebagai ensiklopedia interaktif untuk game Ninja Heroes, memungkinkan pengguna menjelajahi informasi tentang hero, skill, item, dan strategi langsung dari perangkat mereka. Dibangun menggunakan Flutter dengan desain modern dan responsif, aplikasi ini menghadirkan pengalaman cepat, ringan, dan informatif bagi para penggemar Ninja Heroes.",
+        "photo": "mobileninjabocil",
+        "typeapp": "mobile",
+        "link": "https://github.com/RandieSasongko123/NinjaBocil.APK",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "java": { "name": "Java", "photo": "java" },
+          "androidstudio": { "name": "Android Studio", "photo": "androidstudio" },
+          "api": { "name": "API", "photo": "api" }
+        }
+      },
+      "crud_ninja_bocil": {
+        "name": "CRUD Ninja Bocil [Individu]",
+        "description": "CRUD Ninja Bocil adalah aplikasi web berbasis Laravel yang dikembangkan secara mandiri untuk mengelola data proyek Ninja Bocil. Aplikasi ini menerapkan fungsi Create, Read, Update, dan Delete (CRUD) sebagai sistem manajemen data inti, memungkinkan admin mengatur informasi terkait hero, skill, item, dan strategi game Ninja Heroes. Dengan kekuatan Laravel, proyek ini menampilkan arsitektur bersih, keamanan kuat, serta performa efisien.",
+        "photo": "crudninjabocil",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/CRUD_Laravel_NinjaBocil.git",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "php": { "name": "PHP", "photo": "php" },
+          "laravel": { "name": "Laravel", "photo": "laravel" },
+          "api": { "name": "API", "photo": "api" }
+        }
       }
     }
   },

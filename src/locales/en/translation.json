@@ -118,13 +118,22 @@
       "option1": "Mobile Application",
       "option2": "Web Application"
     },
+    "button" : {
+      "demo": "Live Demo",
+      "code": "Source Code"
+    },
+    "view" : "View Project",
+    "techstack" : "Tech Stack",
     "projects": {
       "vetencode": {
-        "name": "Vetencode App",
-        "description": "Mobile App Flutter",
+        "name": "Vetencode App [Teamwork]",
+        "description": "A mobile marketplace application built using Flutter that enables users in Cianjur to easily buy and sell secondhand goods. The app provides a smooth user experience with real-time chat between buyers and sellers, image uploads, category-based listings, and integrated location detection. Vetencode aims to create a trusted and eco-friendly local trading community while reducing waste through product reuse.",
         "photo": "vetencode",
-        "link": "https",
-        "status": "public",
+        "typeapp": "mobile",
+        "link": "https://github.com/vetencode/bb-buyer-mobile",
+        "demo": "https://google.com",
+        "status": "private",
+        "type": ["mobile"],
         "contributor": {
           "randie": {
             "name": "Randie Sasongko",
@@ -132,30 +141,44 @@
           }
         },
         "tech": {
-          "html": {
-            "name": "HTML 5",
-            "photo": "html"
-          },
-          "css": {
-            "name": "CSS 3",
-            "photo": "css"
-          },
-          "javascript": {
-            "name": "JavaScript",
-            "photo": "javascript"
-          },
-          "vue": {
-            "name": "Vue",
-            "photo": "vue"
+          "flutter": { "name": "Flutter", "photo": "flutter" },
+          "dart": { "name": "Dart", "photo": "dart" },
+          "api": { "name": "Rest API", "photo": "api" }
+        }
+      },
+      "mahasiswa": {
+        "name": "Student Admission System [Individu]",
+        "description": "A comprehensive web-based platform for managing university student admissions. The system supports online application submissions, document verification, status tracking, and automated notifications. Designed to streamline the admission process, it ensures transparency and efficiency for both applicants and administrators.",
+        "photo": "penerimaanMahasiswa",
+        "typeapp": "website",
+        "link": "https://github.com/Sertifikasi-Web-Developer-LSPP1-UMDP/assessment-batch-4-RandieSasongko",
+        "demo": "https://google.com",
+        "status": "private",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
           }
+        },
+        "tech": {
+          "javascript": { "name": "JavaScript", "photo": "javascript" },
+          "reactjs": { "name": "React JS", "photo": "reactjs" },
+          "vite": { "name": "Vite", "photo": "vite" },
+          "php": { "name": "PHP", "photo": "php" },
+          "laravel": { "name": "Laravel", "photo": "laravel" },
+          "api": { "name": "Rest API", "photo": "api" }
         }
       },
       "compere": {
-        "name": "Compere",
-        "description": "Mobile App Flutter",
+        "name": "Compere [Individu]",
+        "description": "A mobile application that predicts potential hardware component failures using text-based descriptions. By leveraging the Multinomial Naive Bayes classification algorithm with TF-IDF feature extraction, the system can analyze user input and identify the most probable component issue. Compere is designed to assist users and technicians in diagnosing computer problems faster and more accurately.",
         "photo": "compere",
-        "link": "https",
+        "typeapp": "mobile",
+        "link": "https://github.com/RandieSasongko/tugas-akhir-informatika-umdp.git",
+        "demo": "https://google.com",
         "status": "public",
+        "type": ["mobile", "website"],
         "contributor": {
           "randie": {
             "name": "Randie Sasongko",
@@ -163,14 +186,117 @@
           }
         },
         "tech": {
-          "html": {
-            "name": "Dart",
-            "photo": "dart"
-          },
-          "css": {
-            "name": "Flutter",
-            "photo": "flutter"
+          "flutter": { "name": "Flutter", "photo": "flutter" },
+          "dart": { "name": "Dart", "photo": "dart" },
+          "go": { "name": "Go", "photo": "go" },
+          "mysql": { "name": "MySQL", "photo": "mysql" },
+          "python": { "name": "Python", "photo": "python" },
+          "api": { "name": "Rest API", "photo": "api" }
+        }
+      },
+      "dicker": {
+        "name": "Dicker System [Teamwork]",
+        "description": "A comprehensive hospital management web application that allows patients to view doctors’ schedules, book appointments, and access essential hospital services online. It also provides hospital administrators with tools to manage doctor availability, departments, and patient data efficiently. Built with a responsive interface and modern web technologies for seamless performance across devices.",
+        "photo": "dicker",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/DickerHospital.github.io",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
           }
+        },
+        "tech": {
+          "html": { "name": "HTML 5", "photo": "html" },
+          "css": { "name": "CSS 3", "photo": "css" },
+          "javascript": { "name": "JavaScript", "photo": "javascript" }
+        }
+      },
+      "ninja_bocil": {
+        "name": "Ninja Bocil [Individu]",
+        "description": "Ninja Bocil is an archive and database built to collect, organize, and present in-depth information about the mobile game Ninja Heroes. Created as a passionate solo project, the site consolidates heroes, skills, items, stats, and gameplay strategies into a single, easy-to-access resource. Its aim is to assist both new and experienced players in comparing hero attributes, designing optimal team compositions, and crafting effective tactics based on accurate, structured data. With a clean interface and straightforward navigation, Ninja Bocil serves as a strategic encyclopedia and quick reference for Ninja Commanders planning their moves on the battlefield.",
+        "photo": "ninjabocil",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/NinjaBocil",
+        "demo": "https://randiesasongko123.github.io/NinjaBocil",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "javascript": { "name": "JavaScript", "photo": "javascript" },
+          "reactjs": { "name": "React JS", "photo": "reactjs" },
+          "api": { "name": "API", "photo": "api" }
+        }
+      },
+      "portofolio1": {
+        "name": "Portofolio 1 [Individu]",
+        "description": "Portofolio 1 is a personal portfolio website designed to showcase the developer’s journey, skills, and completed projects. Built with a modern design and fully responsive layout, it serves as a digital representation of the creator’s professional identity. Through its interactive and informative sections, visitors can explore the developer’s background, technical expertise, and real-world work examples. This project reflects a strong dedication to web development — focusing on visual aesthetics, fast performance, and an intuitive user experience.",
+        "photo": "portofolio1",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/PortofolioRandie.github.io",
+        "demo": "https://randiesasongko123.github.io/PortofolioRandie.github.io/",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "html": { "name": "HTML 5", "photo": "html" },
+          "css": { "name": "CSS 3", "photo": "css" },
+          "javascript": { "name": "JavaScript", "photo": "javascript" }
+        }
+      },
+      "mobile_ninja_bocil": {
+        "name": "Mobile Ninja Bocil [Individu]",
+        "description": "Mobile Ninja Bocil is a self-developed mobile application created as an extension of the Ninja Bocil Website project. It serves as an interactive database and encyclopedia for the Ninja Heroes game, allowing users to explore information about heroes, skills, items, and strategies directly from their devices. Built using Flutter, the app features a modern and responsive design optimized for various screen sizes. This project reflects a strong commitment to delivering a fast, lightweight, and informative user experience for Ninja Heroes enthusiasts everywhere.",
+        "photo": "mobileninjabocil",
+        "typeapp": "mobile",
+        "link": "https://github.com/RandieSasongko123/NinjaBocil.APK",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "java": { "name": "Java", "photo": "java" },
+          "androidstudio": { "name": "Android Studio", "photo": "androidstudio" },
+          "api": { "name": "API", "photo": "api" }
+        }
+      },
+      "crud_ninja_bocil": {
+        "name": "CRUD Ninja Bocil [Individu]",
+        "description": "CRUD Ninja Bocil adalah aplikasi web berbasis Laravel yang dikembangkan secara mandiri untuk mengelola data pada proyek Ninja Bocil. Aplikasi ini menerapkan fungsi Create, Read, Update, dan Delete (CRUD) sebagai sistem manajemen data inti, memungkinkan admin untuk mengatur informasi terkait hero, skill, item, dan strategi dalam game Ninja Heroes. Dengan memanfaatkan kekuatan Laravel sebagai framework PHP modern, proyek ini menampilkan arsitektur yang bersih, keamanan yang kuat, serta performa yang efisien. Selain itu, antarmuka pengguna dirancang agar intuitif dan responsif, mendukung pengelolaan data secara cepat dan mudah melalui dashboard berbasis web.",
+        "photo": "crudninjabocil",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/CRUD_Laravel_NinjaBocil.git",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "php": { "name": "PHP", "photo": "php" },
+          "laravel": { "name": "Laravel", "photo": "laravel" },
+          "api": { "name": "API", "photo": "api" }
         }
       }
     }
