@@ -343,5 +343,62 @@
         "link": "https://id.linkedin.com/in/randie-sasongko-759432266"
       }
     }
+  },
+  "journey": {
+    "title": "Journey",
+    "subtitle-1": "Experience",
+    "subtitle-2": "Education",
+    "experiences": [
+      {
+        "title": "Back-End Programmer",
+        "company": "Central International Education",
+        "period": "May 2025 - Present",
+        "description": "Responsible for developing RESTful APIs and backend logic, including designing, relating, and modifying database structures. Implemented task scheduling to automate routine jobs, conducted testing and debugging to ensure system stability and optimal performance."
+      },
+      {
+        "title": "Flutter Programmer",
+        "company": "PT Vetencode",
+        "period": "Feb 2024 - Jun 2024",
+        "description": "Designed application mockups as development references and supported the process by building REST APIs and structuring efficient databases. Collaborated with the team to maintain project alignment, communicated effectively to solve both technical and non-technical issues, and completed applications according to KPI targets."
+      },
+      {
+        "title": "Teaching Assistant",
+        "company": "Universitas Multi Data Palembang",
+        "period": "Feb 2023 - Present",
+        "description": "Assisted students in resolving technical issues and coding errors during classes. Substituted lectures when the lecturer was unavailable and helped communicate important announcements or course information. Supported students in completing projects by providing guidance, especially on technical challenges requiring extra assistance."
+      },
+      {
+        "title": "Owner & Online Store Admin (Game Items)",
+        "company": "Itemku",
+        "period": "Aug 2020 - Nov 2022",
+        "description": "Managed an online store focused on selling digital game items. Handled transactions and ensured fast and secure item delivery. Addressed customer complaints responsively and maintained satisfaction through professional service. Also managed digital item stock and developed competitive pricing strategies to increase sales."
+      }
+    ],
+    "educations": [
+      {
+        "degree": "Bachelor’s Degree in Informatics Engineering",
+        "school": "Universitas Multi Data Palembang",
+        "period": "2021 - 2025 [Graduated]",
+        "description": "Focused on web development, artificial intelligence, and software engineering. Participated in multiple projects using React, Laravel, and Flutter. GPA: 3.79."
+      },
+      {
+        "degree": "Senior High School - Science Major",
+        "school": "Methodist-2 Palembang",
+        "period": "2018 - 2021 [Graduated]",
+        "description": "Studied the fundamentals of logic, mathematics, and science, forming a strong foundation for programming and system analysis."
+      },
+      {
+        "degree": "Junior High School",
+        "school": "Methodist-2 Palembang",
+        "period": "2015 - 2018 [Graduated]",
+        "description": "Developed an early interest in technology and computers while actively participating in academic and organizational extracurricular activities."
+      },
+      {
+        "degree": "Elementary School",
+        "school": "Methodist-2 Palembang",
+        "period": "2006 - 2012 [Graduated]",
+        "description": "Built a strong academic foundation and developed an early curiosity for science and computers."
+      }
+    ]
   }
 }

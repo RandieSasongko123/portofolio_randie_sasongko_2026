@@ -61,7 +61,7 @@
       "skills": "Keahlian"
     },
     "skills": {
-      "button": "Pelajari Lebih Lanjut",
+      "button": "Pelajari Lebih",
       "html": {
         "name": "HTML 5",
         "description": "HTML5 adalah bahasa markup untuk menyusun dan menampilkan konten di World Wide Web, yang merupakan salah satu teknologi inti di Internet.",
@@ -343,5 +343,62 @@
         "link": "https://id.linkedin.com/in/randie-sasongko-759432266"
       }
     }
+  },
+  "journey": {
+    "title": "Perjalanan",
+    "subtitle-1": "Pengalaman",
+    "subtitle-2": "Pendidikan",
+    "experiences": [
+      {
+        "title": "Programmer Back-End",
+        "company": "Central International Education",
+        "period": "Mei 2025 - Sekarang",
+        "description": "Bertanggung jawab atas pengembangan RESTful API dan logika backend, termasuk perancangan, relasi, serta modifikasi struktur basis data. Mengimplementasikan task scheduling untuk menjalankan tugas rutin secara otomatis, serta melakukan pengujian dan debugging guna memastikan stabilitas dan kinerja sistem yang optimal."
+      },
+      {
+        "title": "Programmer Flutter",
+        "company": "PT Vetencode",
+        "period": "Feb 2024 - Jun 2024",
+        "description": "Merancang desain atau mockup aplikasi sebagai acuan pengembangan, serta mendukung proses pembangunan dengan menyusun REST API dan merancang struktur basis data yang efisien. Berkolaborasi dengan tim untuk menjaga keselarasan dalam pengembangan proyek, berkomunikasi secara efektif dalam menemukan solusi terhadap berbagai masalah teknis maupun non-teknis, serta mengembangkan dan menyelesaikan aplikasi sesuai target KPI yang telah ditetapkan."
+      },
+      {
+        "title": "Asisten Dosen",
+        "company": "Universitas Multi Data Palembang",
+        "period": "Feb 2023 - Sekarang",
+        "description": "Memberikan bantuan kepada mahasiswa dalam menyelesaikan error atau kendala teknis selama proses pembelajaran. Menggantikan dosen dalam mengajar apabila berhalangan hadir, serta membantu menyampaikan pengumuman atau informasi penting kepada mahasiswa. Selain itu, mendukung mahasiswa dalam pengerjaan proyek yang diberikan oleh dosen, terutama ketika menghadapi masalah teknis yang memerlukan pendampingan tambahan."
+      },
+      {
+        "title": "Owner & Admin Toko Online (Game Items)",
+        "company": "Itemku",
+        "period": "Agu 2020 - Nov 2022",
+        "description": "Mengelola toko online yang berfokus pada penjualan item game digital. Bertanggung jawab dalam melayani transaksi dan memastikan pengiriman item berjalan cepat dan aman. Menangani keluhan pelanggan dengan responsif serta menjaga kepuasan pelanggan melalui pelayanan yang profesional. Selain itu, mengelola stok item digital dan menerapkan strategi harga yang kompetitif untuk meningkatkan penjualan."
+      }
+    ],
+    "educations": [
+      {
+        "degree": "S1 Teknik Informatika",
+        "school": "Universitas Multi Data Palembang",
+        "period": "2021 - 2025 [Lulus]",
+        "description": "Mendalami pengembangan web, kecerdasan buatan, dan rekayasa perangkat lunak. Terlibat dalam berbagai proyek berbasis React, Laravel, dan Flutter. IPK: 3.79."
+      },
+      {
+        "degree": "Sekolah Menengah Atas - Jurusan IPA",
+        "school": "Methodist-2 Palembang",
+        "period": "2018 - 2021 [Lulus]",
+        "description": "Mempelajari dasar-dasar logika, matematika, dan sains yang menjadi fondasi kuat untuk pemrograman dan analisis sistem."
+      },
+      {
+        "degree": "Sekolah Menengah Pertama",
+        "school": "Methodist-2 Palembang",
+        "period": "2015 - 2018 [Lulus]",
+        "description": "Mengembangkan minat awal terhadap teknologi dan komputer, serta aktif dalam kegiatan ekstrakurikuler akademik dan organisasi."
+      },
+      {
+        "degree": "Sekolah Dasar",
+        "school": "Methodist-2 Palembang",
+        "period": "2006 - 2012 [Lulus]",
+        "description": "Membangun dasar pendidikan formal dengan prestasi akademik baik dan ketertarikan terhadap sains dan komputer sejak dini."
+      }
+    ]
   }
 }

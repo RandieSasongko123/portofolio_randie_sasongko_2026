@@ -12,7 +12,7 @@ import dart from "../assets/images/dart.png";
 import vue from "../assets/images/vue.png";
 import vetencode from "../assets/images/vetencode.jpg";
 import compere from "../assets/images/compere.jpg";
-import randieSasongko from "../assets/images/photo_profile.png";
+import randieSasongko from "../assets/images/photo_profile_crop.png";
 import dicker from "../assets/images/dicker.jpg";
 import ninjabocil from "../assets/images/ninja_bocil.jpg";
 import portofolio1 from "../assets/images/portofolio.jpg";
@@ -536,7 +536,7 @@ const Projects = () => {
                         </h3>
 
                         {/* Project Description */}
-                        <p className="text-gray-300 leading-relaxed mb-4 text-sm sm:text-base">
+                        <p className="text-gray-300 leading-relaxed mb-4 text-sm sm:text-base text-justify">
                           {project.description}
                         </p>
 

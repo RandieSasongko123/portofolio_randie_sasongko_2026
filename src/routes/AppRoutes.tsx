@@ -10,6 +10,7 @@ import Footer from "../components/layout/Footer";
 import liveWallpaper from "../assets/video/live-wallpaper.mp4";
 import Journey from "../pages/Journey";
 import AudioController from "../components/AudioController";
+import LiquidCursor from "../components/LiquidCursor";
 // import WelcomeToast from "../components/WelcomeToast";
 
 const AppRoutes = () => {
@@ -17,6 +18,8 @@ const AppRoutes = () => {
     <Router>
       {/* Background wrapper dengan video */}
       <div className="w-screen min-h-screen relative">
+        <LiquidCursor />
+
         {/* Video Background */}
         <video
           autoPlay
