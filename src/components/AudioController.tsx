@@ -1,17 +1,17 @@
 import { useEffect, useRef, useState } from "react";
 import { Volume2, VolumeX, Minus, Plus } from "lucide-react";
-import dtfMp3 from "../assets/audio/dtf.mp3";
+import rots from "../assets/audio/RotS.mp3";
 
 export default function AudioController() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isMuted, setIsMuted] = useState(true);
-  const [volume, setVolume] = useState(0.5);
+  const [volume, setVolume] = useState(0.05);
   const [isDragging, setIsDragging] = useState(false);
   const sliderRef = useRef<HTMLDivElement>(null);
 
   // Setup audio on mount
   useEffect(() => {
-    const audio = new Audio(dtfMp3);
+    const audio = new Audio(rots);
     audio.loop = true;
     audio.volume = volume;
     audioRef.current = audio;
