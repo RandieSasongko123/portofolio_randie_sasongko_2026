@@ -85,7 +85,7 @@ const Contact = () => {
             {socialMedia.map((media, index) => (
               <motion.div
                 key={index}
-                className="flex items-center justify-between mb-4 p-3 bg-white/5 rounded-lg shadow"
+                className="flex items-center justify-between mb-4 p-3 rounded-lg shadow backdrop-blur-md border border-white/10"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ 

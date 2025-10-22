@@ -9,6 +9,8 @@ import Footer from "../components/layout/Footer";
 // import chisaBackground from "../assets/images/chisa_background.jpg";
 import liveWallpaper from "../assets/video/live-wallpaper.mp4";
 import Journey from "../pages/Journey";
+import AudioController from "../components/AudioController";
+// import WelcomeToast from "../components/WelcomeToast";
 
 const AppRoutes = () => {
   return (
@@ -55,6 +57,11 @@ const AppRoutes = () => {
 
           {/* Footer */}
           <Footer />
+
+          {/* 🎧 Floating Audio Controller */}
+          <AudioController />
+
+          {/* <WelcomeToast /> */}
         </div>
       </div>
     </Router>

@@ -40,7 +40,7 @@ const Home = () => {
             border-2
             rounded-md
             bg-[#FF6500]
-            text-[#081C29]
+            text-white
             border-[#FF6500]
             font-medium
             transition-all duration-300

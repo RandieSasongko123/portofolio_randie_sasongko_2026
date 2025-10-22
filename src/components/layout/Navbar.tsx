@@ -19,7 +19,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="sticky top-0 z-50 shadow-md transition-colors duration-300">
+    <nav className="backdrop-blur-sm sticky top-0 z-50 shadow-md transition-colors duration-300">
       <div className="max-w-[1500px] mx-auto flex items-center justify-between px-6 py-4 w-full">
         <Link to="/" className="text-xl font-bold text-gray-100">
           Randie Sasongko
