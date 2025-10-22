@@ -350,12 +350,6 @@
     "subtitle-2": "Education",
     "experiences": [
       {
-        "title": "Back-End Programmer",
-        "company": "Central International Education",
-        "period": "May 2025 - Present",
-        "description": "Responsible for developing RESTful APIs and backend logic, including designing, relating, and modifying database structures. Implemented task scheduling to automate routine jobs, conducted testing and debugging to ensure system stability and optimal performance."
-      },
-      {
         "title": "Flutter Programmer",
         "company": "PT Vetencode",
         "period": "Feb 2024 - Jun 2024",

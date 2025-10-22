@@ -350,12 +350,6 @@
     "subtitle-2": "Pendidikan",
     "experiences": [
       {
-        "title": "Programmer Back-End",
-        "company": "Central International Education",
-        "period": "Mei 2025 - Sekarang",
-        "description": "Bertanggung jawab atas pengembangan RESTful API dan logika backend, termasuk perancangan, relasi, serta modifikasi struktur basis data. Mengimplementasikan task scheduling untuk menjalankan tugas rutin secara otomatis, serta melakukan pengujian dan debugging guna memastikan stabilitas dan kinerja sistem yang optimal."
-      },
-      {
         "title": "Programmer Flutter",
         "company": "PT Vetencode",
         "period": "Feb 2024 - Jun 2024",

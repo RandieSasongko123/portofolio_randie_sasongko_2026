@@ -1,14 +1,410 @@
 {
-    "nav": {
-      "home": "首页",
-      "about": "关于",
-      "skills": "技能",
-      "portfolio": "项目",
-      "contact": "联系"
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "journey": "Journey",
+    "project": "Project",
+    "contact": "Contact"
+  },
+  "footer": {
+    "name": "Randie Sasongko",
+    "copyright": ". All rights reserved.",
+    "powered": "Powered by React - Vite - Tailwind CSS - Flowbite"
+  },
+  "home": {
+    "title": "Welcome to My Portfolio",
+    "subtitle": "Frontend Developer & Designer",
+    "greeting": "Hi, I'm Randie Sasongko 🚀",
+    "position": "Fullstack Developer",
+    "description": "I am Randie Sasongko 👩🏻‍💻, an Informatics student at Multi Data University Palembang with expertise in HTML, CSS, Java, PHP, Laravel, JavaScript, Dart, and Flutter. Experienced 💼 in working on projects with Laravel, React JS, and Flutter, serving as a Teaching Assistant, and completing a Certified Flutter Internship. I enjoy teamwork and continuously learning new technologies.",
+    "letsTalk": "Let's Talk 📞",
+    "profileAlt": "profile_photo"
+  },
+  "about": {
+    "title": "About",
+    "me": "Me",
+    "position": "Fullstack Developer!",
+    "description1": "I am Randie Sasongko, a student in the S1 Informatics Study Program at Multi Data University Palembang. I master various programming languages such as HTML 🌐, CSS 🎨, Java ♨️, PHP 🐘, Laravel 🚀, JavaScript ｡🇯‌🇸‌, Dart 🔠, and Flutter 🛠️, and can use frameworks like Bootstrap and Tailwind CSS.",
+    "description2": "During my studies, I have gained experience in the programming field, such as building projects using Laravel, React JS, and others, including serving as a Teaching Assistant. I also participated in the Kampus Merdeka program, where I successfully completed a 📜 Certified Internship as a Flutter Programmer 📱 (Android). I enjoy working in teams and have the passion to continuously learn and grow in the technology field 🔥.",
+    "altGif": "About Me GIF",
+    "altProfile": "profile_photo",
+    "status": {
+      "private": "Private",
+      "public": "Public"
     },
-    "home": {
-      "title": "欢迎来到我的作品集",
-      "subtitle": "前端开发者与设计师"
+    "projects": {
+      "vetencode": {
+        "name": "Vetencode App",
+        "description": "Mobile App Flutter"
+      },
+      "compere": {
+        "name": "Compere",
+        "description": "Web Application"
+      },
+      "dicker": {
+        "name": "Dicker System",
+        "description": "Web App"
+      },
+      "mahasiswa": {
+        "name": "Student Admission",
+        "description": "Web Application"
+      }
     }
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": {
+      "projects": "Projects",
+      "skills": "Skills"
+    },
+    "skills": {
+      "button": "Learn More",
+      "html": {
+          "name": "HTML 5",
+          "description": "HTML5 is a markup language for structuring and displaying content on the World Wide Web, a core technology of the Internet",
+          "link": "https://en.wikipedia.org/wiki/HTML"
+      },
+      "css": {
+          "name": "CSS 3",
+          "description": "CSS 3 is the latest version of CSS still under development by W3C. However, several web browsers already support CSS 3",
+          "link": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+      },
+      "javascript": {
+          "name": "JavaScript",
+          "description": "JavaScript is a high-level, dynamic programming language. JavaScript is popular on the internet and can work",
+          "link": "https://en.wikipedia.org/wiki/JavaScript"
+      },
+      "dart": {
+          "name": "Dart",
+          "description": "Dart is designed for web development such as web and mobile applications, and can also be used to build server applications and desktop applications.",
+          "link": "https://en.wikipedia.org/wiki/Dart_(programming_language)"
+      },
+      "bootstrap": {
+          "name": "Bootstrap",
+          "description": "Bootstrap is a free and open-source CSS framework for designing websites and web applications. This framework contains design templates",
+          "link": "https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+      },
+      "tailwind": {
+          "name": "Tailwind CSS",
+          "description": "Tailwind CSS is a CSS framework that contains a set of utility classes for building custom interfaces quickly.",
+          "link": "https://en.wikipedia.org/wiki/Tailwind_CSS"
+      },
+      "flutter": {
+          "name": "Flutter",
+          "description": "Flutter is an open-source UI software development kit created by Google. Used to develop cross-platform applications from a single codebase for any web browser.",
+          "link": "https://en.wikipedia.org/wiki/Flutter_(software)"
+      },
+      "laravel": {
+          "name": "Laravel",
+          "description": "Laravel is a free, open-source PHP web framework intended for the development of web applications following the model–view–controller architectural pattern.",
+          "link": "https://en.wikipedia.org/wiki/Laravel"
+      },
+      "reactjs": {
+          "name": "React JS",
+          "description": "React is a JavaScript library used to build interactive user interfaces based on components.",
+          "link": "https://en.wikipedia.org/wiki/React_(JavaScript_library)"
+      },
+      "java": {
+          "name": "Java",
+          "description": "Java is a programming language that can run on various computers including mobile phones",
+          "link": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+      }
+    },
+    "option-project": {
+      "option0": "All",
+      "option1": "Mobile Application",
+      "option2": "Web Application"
+    },
+    "button" : {
+      "demo": "Live Demo",
+      "code": "Source Code"
+    },
+    "view" : "View Project",
+    "techstack" : "Tech Stack",
+    "projects": {
+      "vetencode": {
+        "name": "Vetencode App [Teamwork]",
+        "description": "A mobile marketplace application built using Flutter that enables users in Cianjur to easily buy and sell secondhand goods. The app provides a smooth user experience with real-time chat between buyers and sellers, image uploads, category-based listings, and integrated location detection. Vetencode aims to create a trusted and eco-friendly local trading community while reducing waste through product reuse.",
+        "photo": "vetencode",
+        "typeapp": "mobile",
+        "link": "https://github.com/vetencode/bb-buyer-mobile",
+        "demo": "https://google.com",
+        "status": "private",
+        "type": ["mobile"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "flutter": { "name": "Flutter", "photo": "flutter" },
+          "dart": { "name": "Dart", "photo": "dart" },
+          "api": { "name": "Rest API", "photo": "api" }
+        }
+      },
+      "mahasiswa": {
+        "name": "Student Admission System [Individu]",
+        "description": "A comprehensive web-based platform for managing university student admissions. The system supports online application submissions, document verification, status tracking, and automated notifications. Designed to streamline the admission process, it ensures transparency and efficiency for both applicants and administrators.",
+        "photo": "penerimaanMahasiswa",
+        "typeapp": "website",
+        "link": "https://github.com/Sertifikasi-Web-Developer-LSPP1-UMDP/assessment-batch-4-RandieSasongko",
+        "demo": "https://google.com",
+        "status": "private",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "javascript": { "name": "JavaScript", "photo": "javascript" },
+          "reactjs": { "name": "React JS", "photo": "reactjs" },
+          "vite": { "name": "Vite", "photo": "vite" },
+          "php": { "name": "PHP", "photo": "php" },
+          "laravel": { "name": "Laravel", "photo": "laravel" },
+          "api": { "name": "Rest API", "photo": "api" }
+        }
+      },
+      "compere": {
+        "name": "Compere [Individu]",
+        "description": "A mobile application that predicts potential hardware component failures using text-based descriptions. By leveraging the Multinomial Naive Bayes classification algorithm with TF-IDF feature extraction, the system can analyze user input and identify the most probable component issue. Compere is designed to assist users and technicians in diagnosing computer problems faster and more accurately.",
+        "photo": "compere",
+        "typeapp": "mobile",
+        "link": "https://github.com/RandieSasongko/tugas-akhir-informatika-umdp.git",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["mobile", "website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "flutter": { "name": "Flutter", "photo": "flutter" },
+          "dart": { "name": "Dart", "photo": "dart" },
+          "go": { "name": "Go", "photo": "go" },
+          "mysql": { "name": "MySQL", "photo": "mysql" },
+          "python": { "name": "Python", "photo": "python" },
+          "api": { "name": "Rest API", "photo": "api" }
+        }
+      },
+      "dicker": {
+        "name": "Dicker System [Teamwork]",
+        "description": "A comprehensive hospital management web application that allows patients to view doctors’ schedules, book appointments, and access essential hospital services online. It also provides hospital administrators with tools to manage doctor availability, departments, and patient data efficiently. Built with a responsive interface and modern web technologies for seamless performance across devices.",
+        "photo": "dicker",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/DickerHospital.github.io",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "html": { "name": "HTML 5", "photo": "html" },
+          "css": { "name": "CSS 3", "photo": "css" },
+          "javascript": { "name": "JavaScript", "photo": "javascript" }
+        }
+      },
+      "ninja_bocil": {
+        "name": "Ninja Bocil [Individu]",
+        "description": "Ninja Bocil is an archive and database built to collect, organize, and present in-depth information about the mobile game Ninja Heroes. Created as a passionate solo project, the site consolidates heroes, skills, items, stats, and gameplay strategies into a single, easy-to-access resource. Its aim is to assist both new and experienced players in comparing hero attributes, designing optimal team compositions, and crafting effective tactics based on accurate, structured data. With a clean interface and straightforward navigation, Ninja Bocil serves as a strategic encyclopedia and quick reference for Ninja Commanders planning their moves on the battlefield.",
+        "photo": "ninjabocil",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/NinjaBocil",
+        "demo": "https://randiesasongko123.github.io/NinjaBocil",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "javascript": { "name": "JavaScript", "photo": "javascript" },
+          "reactjs": { "name": "React JS", "photo": "reactjs" },
+          "api": { "name": "API", "photo": "api" }
+        }
+      },
+      "portofolio1": {
+        "name": "Portofolio 1 [Individu]",
+        "description": "Portofolio 1 is a personal portfolio website designed to showcase the developer’s journey, skills, and completed projects. Built with a modern design and fully responsive layout, it serves as a digital representation of the creator’s professional identity. Through its interactive and informative sections, visitors can explore the developer’s background, technical expertise, and real-world work examples. This project reflects a strong dedication to web development — focusing on visual aesthetics, fast performance, and an intuitive user experience.",
+        "photo": "portofolio1",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/PortofolioRandie.github.io",
+        "demo": "https://randiesasongko123.github.io/PortofolioRandie.github.io/",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "html": { "name": "HTML 5", "photo": "html" },
+          "css": { "name": "CSS 3", "photo": "css" },
+          "javascript": { "name": "JavaScript", "photo": "javascript" }
+        }
+      },
+      "mobile_ninja_bocil": {
+        "name": "Mobile Ninja Bocil [Individu]",
+        "description": "Mobile Ninja Bocil is a self-developed mobile application created as an extension of the Ninja Bocil Website project. It serves as an interactive database and encyclopedia for the Ninja Heroes game, allowing users to explore information about heroes, skills, items, and strategies directly from their devices. Built using Flutter, the app features a modern and responsive design optimized for various screen sizes. This project reflects a strong commitment to delivering a fast, lightweight, and informative user experience for Ninja Heroes enthusiasts everywhere.",
+        "photo": "mobileninjabocil",
+        "typeapp": "mobile",
+        "link": "https://github.com/RandieSasongko123/NinjaBocil.APK",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "java": { "name": "Java", "photo": "java" },
+          "androidstudio": { "name": "Android Studio", "photo": "androidstudio" },
+          "api": { "name": "API", "photo": "api" }
+        }
+      },
+      "crud_ninja_bocil": {
+        "name": "CRUD Ninja Bocil [Individu]",
+        "description": "CRUD Ninja Bocil adalah aplikasi web berbasis Laravel yang dikembangkan secara mandiri untuk mengelola data pada proyek Ninja Bocil. Aplikasi ini menerapkan fungsi Create, Read, Update, dan Delete (CRUD) sebagai sistem manajemen data inti, memungkinkan admin untuk mengatur informasi terkait hero, skill, item, dan strategi dalam game Ninja Heroes. Dengan memanfaatkan kekuatan Laravel sebagai framework PHP modern, proyek ini menampilkan arsitektur yang bersih, keamanan yang kuat, serta performa yang efisien. Selain itu, antarmuka pengguna dirancang agar intuitif dan responsif, mendukung pengelolaan data secara cepat dan mudah melalui dashboard berbasis web.",
+        "photo": "crudninjabocil",
+        "typeapp": "website",
+        "link": "https://github.com/RandieSasongko123/CRUD_Laravel_NinjaBocil.git",
+        "demo": "https://google.com",
+        "status": "public",
+        "type": ["website"],
+        "contributor": {
+          "randie": {
+            "name": "Randie Sasongko",
+            "photo": "randieSasongko"
+          }
+        },
+        "tech": {
+          "php": { "name": "PHP", "photo": "php" },
+          "laravel": { "name": "Laravel", "photo": "laravel" },
+          "api": { "name": "API", "photo": "api" }
+        }
+      }
+    }
+  },
+  "contact": {
+    "title" : {
+      "contact": "Contact",
+      "social_media": "Social Media"
+    },
+    "social_media" : {
+      "instagram" : {
+        "name": "Instagram",
+        "description" : "randie.sasongko",
+        "link": "https://www.instagram.com/randie.sasongko/#"
+      },
+      "facebook" : {
+        "name": "Facebook",
+        "description" : "Randie Sasongko",
+        "link": "https://www.facebook.com/profile.php?id=100004601507031&locale=id_ID"
+      },
+      "whatsapp" : {
+        "name": "Whatsapp",
+        "description" : "085156526455",
+        "link": "https://wa.me/085156526455"
+      },
+      "github" : {
+        "name": "GitHub",
+        "description" : "RandieSasongko123",
+        "link": "https://github.com/RandieSasongko123"
+      },
+      "vercel" : {
+        "name": "Vercel",
+        "description" : "Randie",
+        "link": "https://vercel.com/randiesasongko123s-projects"
+      },
+      "gmail" : {
+        "name": "Gmail",
+        "description" : "randie.sasongko08@gmail.com",
+        "link": "https://google.com"
+      },
+      "linkedin" : {
+        "name": "LinkedIn",
+        "description" : "Randie Sasongko",
+        "link": "https://id.linkedin.com/in/randie-sasongko-759432266"
+      }
+    }
+  },
+  "journey": {
+    "title": "Journey",
+    "subtitle-1": "Experience",
+    "subtitle-2": "Education",
+    "experiences": [
+      {
+        "title": "Back-End Programmer",
+        "company": "Central International Education",
+        "period": "May 2025 - Present",
+        "description": "Responsible for developing RESTful APIs and backend logic, including designing, relating, and modifying database structures. Implemented task scheduling to automate routine jobs, conducted testing and debugging to ensure system stability and optimal performance."
+      },
+      {
+        "title": "Programmer Back-End",
+        "company": "Central International Education",
+        "period": "Mei 2025 - Sekarang",
+        "description": "Bertanggung jawab atas pengembangan RESTful API dan logika backend, termasuk perancangan, relasi, serta modifikasi struktur basis data. Mengimplementasikan task scheduling untuk menjalankan tugas rutin secara otomatis, serta melakukan pengujian dan debugging guna memastikan stabilitas dan kinerja sistem yang optimal."
+      },
+      {
+        "title": "Flutter Programmer",
+        "company": "PT Vetencode",
+        "period": "Feb 2024 - Jun 2024",
+        "description": "Designed application mockups as development references and supported the process by building REST APIs and structuring efficient databases. Collaborated with the team to maintain project alignment, communicated effectively to solve both technical and non-technical issues, and completed applications according to KPI targets."
+      },
+      {
+        "title": "Teaching Assistant",
+        "company": "Universitas Multi Data Palembang",
+        "period": "Feb 2023 - Present",
+        "description": "Assisted students in resolving technical issues and coding errors during classes. Substituted lectures when the lecturer was unavailable and helped communicate important announcements or course information. Supported students in completing projects by providing guidance, especially on technical challenges requiring extra assistance."
+      },
+      {
+        "title": "Owner & Online Store Admin (Game Items)",
+        "company": "Itemku",
+        "period": "Aug 2020 - Nov 2022",
+        "description": "Managed an online store focused on selling digital game items. Handled transactions and ensured fast and secure item delivery. Addressed customer complaints responsively and maintained satisfaction through professional service. Also managed digital item stock and developed competitive pricing strategies to increase sales."
+      }
+    ],
+    "educations": [
+      {
+        "degree": "Bachelor’s Degree in Informatics Engineering",
+        "school": "Universitas Multi Data Palembang",
+        "period": "2021 - 2025 [Graduated]",
+        "description": "Focused on web development, artificial intelligence, and software engineering. Participated in multiple projects using React, Laravel, and Flutter. GPA: 3.79."
+      },
+      {
+        "degree": "Senior High School - Science Major",
+        "school": "Methodist-2 Palembang",
+        "period": "2018 - 2021 [Graduated]",
+        "description": "Studied the fundamentals of logic, mathematics, and science, forming a strong foundation for programming and system analysis."
+      },
+      {
+        "degree": "Junior High School",
+        "school": "Methodist-2 Palembang",
+        "period": "2015 - 2018 [Graduated]",
+        "description": "Developed an early interest in technology and computers while actively participating in academic and organizational extracurricular activities."
+      },
+      {
+        "degree": "Elementary School",
+        "school": "Methodist-2 Palembang",
+        "period": "2006 - 2012 [Graduated]",
+        "description": "Built a strong academic foundation and developed an early curiosity for science and computers."
+      }
+    ]
   }
-  
+}
