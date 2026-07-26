@@ -362,6 +362,12 @@
         "description": "Responsible for developing RESTful APIs and backend logic, including designing, relating, and modifying database structures. Implemented task scheduling to automate routine jobs, conducted testing and debugging to ensure system stability and optimal performance."
       },
       {
+        "title": "Freelance Programmer",
+        "company": "-",
+        "period": "Mar 2024 - Jan 2026",
+        "description": "Mengembangkan aplikasi sesuai dengan kebutuhan dan permintaan klien, termasuk proyek akademik, aplikasi bisnis, dan pengembangan sistem. Bertanggung jawab melakukan analisis kebutuhan, implementasi fitur, perbaikan bug, pengujian aplikasi, serta melakukan revisi berdasarkan masukan dari klien."
+      },
+      {
         "title": "Flutter Programmer",
         "company": "PT Vetencode",
         "period": "Feb 2024 - Jun 2024",
@@ -370,7 +376,7 @@
       {
         "title": "Teaching Assistant",
         "company": "Universitas Multi Data Palembang",
-        "period": "Feb 2023 - Present",
+        "period": "Feb 2023 - Jun 2025",
         "description": "Assisted students in resolving technical issues and coding errors during classes. Substituted lectures when the lecturer was unavailable and helped communicate important announcements or course information. Supported students in completing projects by providing guidance, especially on technical challenges requiring extra assistance."
       },
       {
